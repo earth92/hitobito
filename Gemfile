@@ -9,7 +9,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '= 6.1.7.1'
 
-gem 'activerecord-session_store'
+gem 'activerecord-session_store', '>= 2.1.0'
 gem 'acts-as-taggable-on'
 gem 'airbrake'
 gem 'awesome_nested_set'
