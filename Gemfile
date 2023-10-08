@@ -7,7 +7,7 @@
 
 source 'https://rubygems.org'
 
-gem 'rails', '= 6.1.7.1'
+gem 'rails', '= 7.1.0'
 
 gem 'activerecord-session_store'
 gem 'acts-as-taggable-on'
@@ -86,7 +86,7 @@ gem 'truemail'
 gem 'validates_by_schema'
 gem 'validates_timeliness'
 gem 'vcard'
-gem 'wagons', '0.6.1'
+gem 'wagons', '0.7.0'
 gem 'webpacker'
 
 # load after others because of active record inherited alias chain.
