@@ -73,7 +73,7 @@ gem 'remotipart'
 gem 'rest-client'
 gem 'rotp'
 gem 'rqrcode'
-gem 'rswag'
+gem 'rswag', '>= 2.11.0'
 gem 'rubyzip'
 gem 'seed-fu'
 gem 'sentry-raven'
@@ -105,7 +105,7 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'pry-doc' # provides show-source/$ in the pry-console
   gem 'rspec-rails', '~> 5.0'
-  gem 'rswag-specs'
+  gem 'rswag-specs', '>= 2.11.0'
 end
 
 group :development do
