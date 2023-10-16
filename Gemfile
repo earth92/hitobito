@@ -10,7 +10,7 @@ source 'https://rubygems.org'
 gem 'rails', '= 6.1.7.1'
 
 gem 'activerecord-session_store'
-gem 'acts-as-taggable-on'
+gem 'acts-as-taggable-on', '>= 10.0.0'
 gem 'airbrake'
 gem 'awesome_nested_set'
 gem 'aws-sdk-s3', require: false
