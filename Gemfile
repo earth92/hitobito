@@ -38,7 +38,7 @@ gem 'epics' # client for EBICS-connections to banks
 gem 'faker'
 gem 'faraday'
 gem 'gibbon', '~> 3.4'
-gem 'globalize'
+gem 'globalize', '>= 6.3.0'
 gem 'graphiti'
 gem 'graphiti-rails', '~> 0.1'
 gem 'haml'
