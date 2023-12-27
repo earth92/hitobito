@@ -31,7 +31,7 @@ gem 'delayed_job_heartbeat_plugin'
 gem 'devise'
 gem 'doorkeeper'
 gem 'doorkeeper-i18n'
-gem 'doorkeeper-openid_connect'
+gem 'doorkeeper-openid_connect', '>= 1.8.4'
 gem 'draper'
 gem 'draper-cancancan'
 gem 'epics' # client for EBICS-connections to banks
