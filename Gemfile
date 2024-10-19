@@ -7,7 +7,7 @@
 
 source 'https://rubygems.org'
 
-gem 'rails', '= 6.1.7.1'
+gem 'rails', '= 7.0.0'
 
 gem 'activerecord-session_store'
 gem 'acts-as-taggable-on'
@@ -67,7 +67,7 @@ gem 'protective'
 gem 'pry-rails'
 gem 'puma'
 gem 'rack-cors'
-gem 'rails_autolink'
+gem 'rails_autolink', '>= 1.1.8'
 gem 'rails-i18n'
 gem 'remotipart'
 gem 'rest-client'
