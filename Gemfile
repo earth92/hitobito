@@ -86,7 +86,7 @@ gem 'truemail'
 gem 'validates_by_schema'
 gem 'validates_timeliness'
 gem 'vcard'
-gem 'wagons', '0.6.1'
+gem 'wagons', '0.9.0'
 gem 'webpacker'
 
 # load after others because of active record inherited alias chain.
