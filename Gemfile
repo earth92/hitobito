@@ -7,12 +7,12 @@
 
 source 'https://rubygems.org'
 
-gem 'rails', '= 6.1.7.1'
+gem 'rails', '= 7.1.5.2'
 
-gem 'activerecord-session_store'
-gem 'acts-as-taggable-on'
+gem 'activerecord-session_store', '>= 2.1.0'
+gem 'acts-as-taggable-on', '>= 10.0.0'
 gem 'airbrake'
-gem 'awesome_nested_set'
+gem 'awesome_nested_set', '>= 3.6.0'
 gem 'aws-sdk-s3', require: false
 gem 'bcrypt'
 gem 'bleib', '~> 0.0.10'
@@ -26,8 +26,8 @@ gem 'config'
 gem 'country_select'
 gem 'daemons'
 gem 'dalli'
-gem 'delayed_job_active_record'
-gem 'delayed_job_heartbeat_plugin'
+gem 'delayed_job_active_record', '>= 4.1.7'
+gem 'delayed_job_heartbeat_plugin', '>= 0.4.0'
 gem 'devise'
 gem 'doorkeeper'
 gem 'doorkeeper-i18n'
@@ -38,17 +38,17 @@ gem 'epics' # client for EBICS-connections to banks
 gem 'faker'
 gem 'faraday'
 gem 'gibbon', '~> 3.4'
-gem 'globalize'
+gem 'globalize', '>= 6.3.0'
 gem 'graphiti'
 gem 'graphiti-rails', '~> 0.1'
 gem 'haml'
 gem 'http_accept_language'
 gem 'icalendar'
 gem 'image_processing', '~> 1.12'
-gem 'ledermann-rails-settings'
+gem 'ledermann-rails-settings', '>= 2.6.0'
 gem 'lograge'
 gem 'lograge_activejob'
-gem 'lograge-sql'
+gem 'lograge-sql', '>= 2.2.0'
 gem 'magiclabs-userstamp', require: 'userstamp'
 gem 'mime-types'
 gem 'mini_magick'
@@ -56,8 +56,8 @@ gem 'mysql2'
 gem 'nested_form'
 gem 'nokogiri'
 gem 'oat'
-gem 'paper_trail', '~> 11.1' # 11.1 adds Rails 6.1-support, 12 breaks for now
-gem 'paranoia'
+gem 'paper_trail', '~> 12.0', '>= 12.0.0' # 11.1 adds Rails 6.1-support, 12 breaks for now
+gem 'paranoia', '>= 2.6.3'
 gem 'phonelib'
 gem 'prawn'
 gem 'prawn-markup'
@@ -67,7 +67,7 @@ gem 'protective'
 gem 'pry-rails'
 gem 'puma'
 gem 'rack-cors'
-gem 'rails_autolink'
+gem 'rails_autolink', '>= 1.1.7'
 gem 'rails-i18n'
 gem 'remotipart'
 gem 'rest-client'
@@ -81,18 +81,18 @@ gem 'simpleidn'
 gem 'sprockets', '~> 3.7.2' # pinned to older version to avoid having an empty manifest.js
 gem 'sqlite3' # required for asset generation
 gem 'strip_attributes' # strip whitespace of attributes
-gem 'thinking-sphinx'
+gem 'thinking-sphinx', '>= 5.4.0'
 gem 'truemail'
-gem 'validates_by_schema'
+gem 'validates_by_schema', '>= 0.3.1'
 gem 'validates_timeliness'
 gem 'vcard'
-gem 'wagons', '0.6.1'
+gem 'wagons', '0.7.0'
 gem 'webpacker'
 
 # load after others because of active record inherited alias chain.
-gem 'kaminari'
+gem 'kaminari', '>= 1.2.2'
 
-gem 'active_storage_validations' # validate filesize, dimensions and content-type of uploads
+gem 'active_storage_validations' , '>= 1.0.0' # validate filesize, dimensions and content-type of uploads
 gem 'active_storage_variant' # variants for Rails < 7
 gem 'nochmal' # migrate into or between ActiveStorage-Backends
 
@@ -141,10 +141,10 @@ group :console do
 end
 
 group :metrics do
-  gem 'annotate'
+  gem 'annotate', '>= 3.2.0'
   gem 'brakeman'
   gem 'ci_reporter_rspec'
-  gem 'rails-erd'
+  gem 'rails-erd', '>= 1.5.1'
   gem 'rubocop'
   gem 'rubocop-checkstyle_formatter'
   gem 'rubocop-rails'
