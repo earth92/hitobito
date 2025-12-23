@@ -13,7 +13,7 @@ gem 'activerecord-session_store'
 gem 'acts-as-taggable-on'
 gem 'airbrake'
 gem 'awesome_nested_set'
-gem 'aws-sdk-s3', require: false
+gem 'aws-sdk-s3', '>= 1.208.0', require: false
 gem 'bcrypt'
 gem 'bleib', '~> 0.0.10'
 gem 'bootsnap', require: false
