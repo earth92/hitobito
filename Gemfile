@@ -34,10 +34,10 @@ gem 'doorkeeper-i18n'
 gem 'doorkeeper-openid_connect'
 gem 'draper'
 gem 'draper-cancancan'
-gem 'epics' # client for EBICS-connections to banks
+gem 'epics' , '>= 2.0.0' # client for EBICS-connections to banks
 gem 'faker'
-gem 'faraday'
-gem 'gibbon', '~> 3.4'
+gem 'faraday', '>= 2.14.1'
+gem 'gibbon', '~> 3.5', '>= 3.5.0'
 gem 'globalize'
 gem 'graphiti'
 gem 'graphiti-rails', '~> 0.1'
